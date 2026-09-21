@@ -13415,7 +13415,7 @@ local button = Instance.new("TextButton")
 		decalID = frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text
 function exPro(root)
 for _, v in pairs(root:GetChildren()) do
-if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="117574291275773 then
 v.Parent = nil
 elseif v:IsA("BasePart") then
 v.Material = "Plastic"
